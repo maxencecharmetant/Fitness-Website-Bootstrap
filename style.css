@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #6cae22;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.section-header h2 span {
+    color: var(--primary-color);
+}
+
+.navbar {
+    background:#fff;
+}
+
+.navbar-nav {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-brand {
+color: #262626;
+font-size: 1.5rem;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color:#262626;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #262626;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 1.2rem;
+    line-height: 0.3;
+    background: #fff;
+}
+
+/* carousel */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.bg-1 {
+    background-image: url(img/1.jpg);
+}
+
+.bg-2 {
+    background-image: url(img/2.jpg);
+}
+
+.bg-3 {
+    background-image: url(img/3.jpg);
+}
+
+.bg-1,
+.bg-2,
+.bg-3 {
+    background-size: cover;
+}
+
+
+.hero .carousel-caption {
+    bottom: 250px;
+    z-index: 2;  
+    text-align: left;
+    left: 8%;
+    color: #262626;
+}
+
+.hero .carousel-caption p {
+    font-size: 1rem;
+}
+
+
+.testimonial .carousel-caption {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.carousel-caption h5 {
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    color: #262626;
+}
+
+.carousel-caption p {
+    width: 45%;
+    font-size: 3.4rem;
+    line-height: 1.9;
+    color: #262626;
+}
+
+.carousel-caption .btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    background: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 5px;
+    color:#fff;
+}
+
+.carousel-indicators {
+    bottom: 65px;
+}
+
+.carousel-indicators button {
+    width: 100px !important;
+}
+
+.ab-img img{
+    width: 100%;
+}
+
+.about-text h4 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.about-text p {
+    color: gray;
+    line-height: 1.8;
+}
+
+.about-text a {
+    background: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.about-text a:hover {
+    color: #4B7917;
+}
+
+.about-text a:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+.stats {
+    background: var(--primary-color);
+    color: black;
+}
+
+.single-number i {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.single-number h2{
+    font-weight: 700;
+}
+
+.single-service {
+    padding: 30px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.single-service i {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.single-service a {
+    text-decoration: none;
+    background: var(--primary-color);    
+    padding: 10px 30px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.single-service:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.single-service:hover a {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+/* testimonials */
+
+.testimonial .section-header h2 {
+    color: #fff;
+}
+
+.testimonial .section-header h2 span {
+    color: #fff;
+}
+
+.testimonial .section-header p {
+    color: #fff;
+}
+
+.testimonial {
+    background: var(--primary-color);
+}
+
+.testimonial .carousel-caption {
+    color: #fff;
+    bottom: 0;
+}
+
+.testimonial .carousel-item {
+    height: 30vh;
+}
+
+.testimonial .carousel-caption h5{
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.testimonial blockquote {
+    margin-top: 15px;
+}
+
+.testi-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #fff;
+}
+
+.testi-img img {
+    width: 100%;
+}
+
+.single-trainer {
+    box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+}
+
+.single-trainer .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.single-trainer .socials i {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.single-blog .card:hover {
+    transform: scale(1.02);
+    transition: all 0.5s ease-in-out;
+}
+
+.single-blog .card a {
+    background: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.single-blog .card a:hover {
+    color: #4B7917;
+}
+
+.single-blog {
+    box-shadow:  0 2px 20px rgba(0,0,0,0.3);
+}
+
+.single-blog .card-title {
+    font-weight: 600;
+}
+
+/* quote */
+
+.quote {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.single-quote p {
+    font-size: 1.5rem;
+}
+
+.single-quote i {
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+/* contact */
+
+.left-contact {
+    background: var(--primary-color);
+    padding: 60px;
+    color: #fff;
+}
+
+.left-contact h3 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+
+.contact .btn {
+    background: var(--primary-color);
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* footer */
+
+footer {
+    background: var(--primary-color);
+    padding: 35px 0;
+    color: #fff;
+}
+
+.socials i {
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+.footer .socials i {
+    cursor: pointer;
+}
+/* responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+   
+    .single-service {
+        height: 100%;
+        max-height: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        background:#fff;
+    }
+
+    .navbar-collapse .nav-item .nav-link {
+        color: #000;
+    }
+
+    .carousel-caption {
+        bottom: 450px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2.8rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .bg-1,
+    .bg-2, 
+    .bg-3 {
+        background-position: 36%;
+    }
+
+    .ab-img img {
+        width: 100%;
+    }
+
+    .about-text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .single-service,
+    .single-trainer, 
+    .single-blog, 
+    .single-contact, 
+    .single-number {
+        margin-bottom: 30px;
+    }
+
+    .single-service {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .navbar-collapse .nav-item .nav-link {
+        color: #000;
+    }
+
+    .carousel-caption {
+        bottom: 165px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+        text-align: center;
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about-text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .single-service,
+    .single-trainer, 
+    .single-blog, 
+    .single-contact, 
+    .single-number {
+        margin-bottom: 30px;
+    }
+
+    .single-quote p {
+        font-size: 18px;
+    }
+
+    .single-quote i {
+        font-size: 25px;
+        padding:  0 5px;
+    }
+
+    .single-quote h5 {
+        margin-top: 120px !important;
+        }
+
+    .testimonial .carousel-caption {
+        bottom: -30px;
+    }
+
+    .left-contact {
+        text-align: center;
+    }
+
+    .contact label {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .contact .btn {
+        text-align: center;
+    }
+
+    .hero .carousel-caption {
+        text-align: center;
+    }
+
+    .hero .carousel-caption h5 {
+        font-size: 2.8rem;
+
+    }
+
+
+}
+

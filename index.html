@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website With Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/76aeecee72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-success">World</span>Gym</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trainers">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--hero-->
+    <section class="hero">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active bg-1">
+                <div class="carousel-caption">
+                    <h5 class="animate__animated animate__fadeInDown animate__delay-1s">WorldGym<span class="text-success">Center</span></h5>
+                    <p class="animate__animated animate__fadeInUp animate__delay-1s">We provide the best trainers in the World !</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="carousel-item bg-2">
+                <div class="carousel-caption">
+                    <h5 class="animate__animated animate__fadeInDown animate__delay-1s">healthy<span class="text-success">Lifestyle</span></h5>
+                    <p class="animate__animated animate__fadeInUp animate__delay-1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptate.</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="carousel-item bg-3">
+                <div class="carousel-caption">
+                    <h5 class="animate__animated animate__fadeInDown animate__delay-1s">Increased<span class="text-success">Flexibility</span></h5>
+                    <p class="animate__animated animate__fadeInUp animate__delay-1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptate.</p>
+                <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                    <img src="img/1.jpg" alt="" class="d-block w-100 img-fluid">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img src="img/2.jpg" alt="" class="d-block w-100 img-fluid">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img src="img/3.jpg" alt="" class="d-block w-100 img-fluid">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="about">
+        <div class="section-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>About<span>Us</span></h2>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-sm-12">
+                        <div class="ab-img">
+                            <img src="img/about.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12">
+                        <div class="about-text">
+                            <h4 class="text-capitalize">Welcome to WorldGym</h4>
+                            <h2>Better Life with Perfect Body</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error rem est officiis eligendi quod quasi eius voluptates ducimus expedita maxime? Quibusdam veniam, sequi dolor maiores cumque, laborum inventore nam eveniet quas maxime voluptas illum quisquam natus ab? Vel quam facilis repellendus qui. Sit, officia earum? Voluptatum magni tempora a ullam!</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--stats-->
+    <div class="stats section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-number text-center">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h2>12+</h2>
+                        <p>Fitness Classes</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-number text-center">
+                        <i class="fas fa-users"></i>
+                        <h2>3</h2>
+                        <p>Professional Trainers</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-number text-center">
+                        <i class="far fa-clock"></i>
+                        <h2>25+</h2>
+                        <p>Years of Experiences</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-number text-center">
+                        <i class="far fa-heart"></i>
+                        <h2>3247+</h2>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--services-->
+    <section class="services">
+        <div class="section-padding" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Our <span>Services</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ex.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-service text-center">
+                            <i class="fas fa-dumbbell"></i>
+                            <h2>Muscle Growth</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit distinctio voluptatibus corporis tenetur minima quae est quod ducimus harum animi.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service text-center">
+                            <i class="fas fa-heartbeat"></i>                        
+                            <h2>Improve Cardio</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit distinctio voluptatibus corporis tenetur minima quae est quod ducimus harum animi.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service text-center">
+                            <i class="fas fa-balance-scale-left"></i>
+                            <h2>Life Balancing</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit distinctio voluptatibus corporis tenetur minima quae est quod ducimus harum animi.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--testimonial -->
+    <section class="testimonial">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Client's <span>Opinion</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-sm-12">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption text-center">
+                                        <div class="testi-img">
+                                            <img src="img/testi-1.jpg" alt="">
+                                        </div>
+                                        <blockquote>
+                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam alias obcaecati, ut sint optio provident quod ad a excepturi aspernatur"
+                                        </blockquote>
+                                        <h4>John Dylan</h4>
+                                        <h5>New York City, USA</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption text-center">
+                                        <div class="testi-img">
+                                            <img src="img/testi-2.jpg" alt="">
+                                        </div>
+                                        <blockquote>
+                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam alias obcaecati, ut sint optio provident quod ad a excepturi aspernatur"
+                                        </blockquote>
+                                        <h4>Denis Noyer</h4>
+                                        <h5>California, USA</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption text-center">
+                                        <div class="testi-img">
+                                            <img src="img/testi-3.jpg" alt="">
+                                        </div>
+                                        <blockquote>
+                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam alias obcaecati, ut sint optio provident quod ad a excepturi aspernatur"
+                                        </blockquote>
+                                        <h4>Claire Renault</h4>
+                                        <h5>Paris, FRANCE</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trainers -->
+    <section class="trainer">
+        <div class="trainer section-padding" id="trainers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Our <span>Trainers</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, unde.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-trainer text-center">
+                            <div class="card">
+                                <img src="img/trainer1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jane Davis</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel quidem, ratione nihil ea eligendi autem ab illo quasi delectus?</p>
+                            <p class="socials">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-instagram"></i>
+                            </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-trainer text-center">
+                            <div class="card">
+                                <img src="img/trainer2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Farin James</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel quidem, ratione nihil ea eligendi autem ab illo quasi delectus?</p>
+                                <p class="socials">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-instagram"></i>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-trainer text-center">
+                            <div class="card">
+                                <img src="img/trainer3.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tom bob</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel quidem, ratione nihil ea eligendi autem ab illo quasi delectus?</p>
+                                <p class="socials">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-instagram"></i>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--blog-->
+    <section class="blog">
+        <div class="section-padding" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Recent <span>Posts</span></h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, necessitatibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-blog text-center">
+                            <div class="card">
+                                <img src="img/blog1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Treat Body as Temple</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel quidem, ratione nihil ea eligendi autem ab illo quasi delectus?</p>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-blog text-center">
+                            <div class="card">
+                                <img src="img/blog2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Treat Body as Temple</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel quidem, ratione nihil ea eligendi autem ab illo quasi delectus?</p>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-blog text-center">
+                            <div class="card">
+                                <img src="img/blog3.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Treat Body as Temple</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel quidem, ratione nihil ea eligendi autem ab illo quasi delectus?</p>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--quote-->
+
+    <section class="quote">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="single-quote text-center">
+                            <p>
+                                <i class="fas fa-quote-left"></i>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, in. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <i class="fas fa-quote-right"></i>
+                                <h5>- Arnold Swarzneger</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact"> 
+        <div class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Contact <span>Us</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-sm-12">
+                        <div class="left-contact">
+                            <h3>Location:</h3>
+                            <p>16, Charles Avenue, Etienne<br>Paris, France</p>
+                            <h3>Email:</h3>
+                            <p>maxence.charmetant69@gmail.com</p>
+                            <h3>Call Us:</h3>
+                            <p>000 000 0000</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 col-sm-12">
+                        <form action="">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name"  placeholder="Your Name" required>
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" name="message" id="message" placeholder="Your Message" required></textarea>
+                            <button class="btn" type="submit">Submit Form</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-content text-center">
+                            <p>All Right Reserved</p>
+                            <p class="socials">
+                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="myscript.js"></script>
+
+</body>
+</html>
