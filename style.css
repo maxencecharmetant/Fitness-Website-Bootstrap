@@ -362,6 +362,7 @@ footer {
 .footer .socials i {
     cursor: pointer;
 }
+
 /* responsive */
 
 @media only screen and (min-width: 992px) and (max-width: 1200px)  {
@@ -435,11 +436,12 @@ footer {
     }
 
     .carousel-caption {
-        bottom: 165px;
+        bottom: 65px;
+        margin: 0 auto;
     }
 
     .carousel-caption h5 {
-        font-size: 1.3rem;
+        font-size: 2rem;        
     }
 
     .carousel-caption p {
@@ -484,12 +486,12 @@ footer {
 
     .single-quote i {
         font-size: 25px;
-        padding:  0 5px;
+        padding: 0 5px;
     }
 
     .single-quote h5 {
-        margin-top: 120px !important;
-        }
+        margin-top: 20px;
+    }
 
     .testimonial .carousel-caption {
         bottom: -30px;
@@ -505,7 +507,7 @@ footer {
     }
 
     .section-padding {
-        padding: 50px 0;
+        padding: 30px 0;
     }
 
     .contact .btn {
@@ -514,13 +516,28 @@ footer {
 
     .hero .carousel-caption {
         text-align: center;
+        left: 0;
+        right: 0;
+        top: 120px;
     }
 
-    .hero .carousel-caption h5 {
-        font-size: 2.8rem;
-
+    .hero .carousel-inner {
+        height: 380px;
     }
 
+    .contact .btn {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contact form {
+        margin-top: 20px;
+    }
+    
+    .carousel-indicators  {
+        display: none;
+    }
 
 }
+
 
